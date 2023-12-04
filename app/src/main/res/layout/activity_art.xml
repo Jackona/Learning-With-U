@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArtActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="359dp"
+        android:layout_height="560dp"
+        android:layout_marginEnd="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/constraintLayout">
+
+        <include layout="@layout/view_display"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="359dp"
+        android:layout_height="82dp"
+       android:background="@drawable/tools_design"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/arttohomebtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/baseline_home_24"
+            android:backgroundTint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.042"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.485" />
+
+        <Button
+            android:id="@+id/paintbrushbtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/outline_brush_24"
+            android:backgroundTint="@color/black"
+            android:onClick="paintbrush"
+            android:rotation="-45"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.159"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.485" />
+
+        <Button
+            android:id="@+id/eraserbtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/eraser"
+            android:backgroundTint="@color/black"
+            android:onClick="eraser"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.279"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.485" />
+
+        <Button
+            android:id="@+id/redbtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#ff0000"
+            android:onClick="redcolour"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.438"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47" />
+
+        <Button
+            android:id="@+id/yellowbtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#FFFFE500"
+            android:onClick="yellowcolour"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.558"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.485" />
+
+        <Button
+            android:id="@+id/greenbtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#4CAF50"
+            android:onClick="greencolour"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.686"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47" />
+
+        <Button
+            android:id="@+id/bluebtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#2196F3"
+            android:onClick="bluecolour"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.797"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47" />
+
+        <Button
+            android:id="@+id/magentabtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:backgroundTint="#E91E63"
+            android:onClick="magentacolour"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.922"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@drawable/img_14"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/totalquestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Total questions"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/questionshere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choices_answers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="ADD QUESTION HERE???"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/choices_answers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/aa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Answer A"
+            android:textColor="#FFEB3B" />
+        <Button
+            android:id="@+id/ab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Answer B"
+            android:textColor="#FFEB3B" />
+        <Button
+            android:id="@+id/ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Answer C"
+            android:textColor="#FFEB3B" />
+        <Button
+            android:id="@+id/ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#3F51B5"
+            android:text="Answer D"
+            android:textColor="#FFEB3B" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choices_answers"
+        android:layout_marginTop="41dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Submit"
+        android:textColor="#FFEB3B" />
+
+    <ImageButton
+        android:id="@+id/quiztohome"
+        android:layout_width="57dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/submit_answer"
+        android:layout_marginTop="41dp"
+        android:backgroundTint="#3F51B5"
+        android:foreground="@drawable/homeyellow"
+        android:contentDescription="quiz to home"/>
+
+
+
+
+
+</RelativeLayout>

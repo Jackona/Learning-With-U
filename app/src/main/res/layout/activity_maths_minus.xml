@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_5"
+    tools:context=".Maths_MinusActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="35dp"
+        android:layout_height="20dp"
+        android:text="Take Away"
+        android:textAlignment="center"
+        android:textColor="#0329FF"
+        android:textSize="8sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#0027FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        android:contentDescription="15"
+        app:srcCompat="@drawable/maths2" />
+
+    <EditText
+    android:id="@+id/onenum"
+    android:layout_width="218dp"
+    android:layout_height="55dp"
+    android:contentDescription="num1"
+    android:ems="10"
+    android:inputType="number"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.497"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.38" />
+
+    <EditText
+        android:id="@+id/twonum"
+        android:layout_width="219dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/btnminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtract"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="addbtn"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <TextView
+        android:id="@+id/answertv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <TextView
+        android:id="@+id/titleminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Subtraction!"
+        android:textAlignment="gravity"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+</androidx.constraintlayout.widget.ConstraintLayout>

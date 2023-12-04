@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "707644132668",
+    "project_id": "learning-with-u",
+    "storage_bucket": "learning-with-u.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707644132668:android:69e54b769ce06058846239",
+        "android_client_info": {
+          "package_name": "com.example.fyp_learningwithu_fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707644132668-msltrl0866ivinq8j6fe0thgb123tv1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrXtmom4SFgbk2SWC96xewRPTPUZ1M02Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707644132668-msltrl0866ivinq8j6fe0thgb123tv1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

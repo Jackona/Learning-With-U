@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logolwu"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".z_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".y_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".x_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".w_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".v_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".u_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".t_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".s_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".r_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".q_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".p_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".o_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".n_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".m_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".l_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".k_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".j_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".i_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".h_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".g_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".f_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".e_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".d_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".c_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".b_jigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Rim_JigsawActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_pageendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page12Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page11Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page10Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_page1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".gruffalo_mianActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArtActivity"
+            android:exported="false" />
+        <activity
+            android:name=".T2SActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Times_FiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Times_FourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Times_ThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Times_TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Times_OneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Symbol_FourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Symbol_TwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Symbol_ThreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".English_ReadingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".English_AlphabetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Maths_TimesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Maths_MinusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Maths_CountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Maths_AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Symbol_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".English_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Maths_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Symbol_LearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

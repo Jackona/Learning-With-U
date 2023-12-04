@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img_12"
+
+    tools:context=".T2SActivity">
+
+    <EditText
+        android:id="@+id/enter_text"
+        android:layout_width="384dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#3F51B5"
+        android:hint="Enter text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pitch"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <SeekBar
+        android:id="@+id/seek_bar_pitch"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:progress="50" />
+
+    <Button
+        android:id="@+id/hearit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#3F51B5"
+        android:backgroundTint="#3F51B5"
+        android:enabled="true"
+        android:text="Hear it"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/tohomepageib"
+        android:layout_width="74dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#3F51B5"
+        android:contentDescription="tohomepage"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+
+</LinearLayout>
